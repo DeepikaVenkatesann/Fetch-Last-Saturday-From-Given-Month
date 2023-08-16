@@ -17,6 +17,7 @@ totalsaturdays(month, year): This function returns the Total Saturdays of the gi
 
 ## Example
 Suppose you want to find the last Saturday and total Saturdays for september 2023:
+
 Enter the month and year (MMYYYY): 092023
 Last Saturday: 30
 Total Saturdays: 5
