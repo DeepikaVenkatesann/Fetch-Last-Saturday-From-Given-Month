@@ -1,8 +1,8 @@
 def lastsaturday(month, year):
     lastday = datetime(year, month + 1, 1) - timedelta(days=1)
     weekdays = lastday.isoweekday()
-    last_sat = lastday - timedelta(days=weekdays + 1)
-    return last_sat.day, (last_day.day - last_sat.day) // 7 + 1
+    lastsaturday = lastday - timedelta(days=weekdays + 1)
+    return lastsaturday.day, (lastday.day - lastsaturday.day) // 7 + 1
 
 def totalsaturdays(month, year):
     firstday = datetime(year, month, 1)
