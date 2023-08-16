@@ -14,10 +14,10 @@ lastsaturday(month, year):This function returns the last Saturday of the given m
 
 totalsaturdays(month, year): This function returns the Total Saturdays of the given month.
 
-from datetime import datetime, timedelta
+## Function Signautre
 
 def lastsaturday(month: int, year: int) -> tuple:
-    """
+
     Calculate the last Saturday of a given month and the number of occurrences of Saturdays.
 
     Parameters:
@@ -26,11 +26,9 @@ def lastsaturday(month: int, year: int) -> tuple:
 
     Returns:
         tuple: A tuple containing the day of the last Saturday and the count of Saturdays.
-    """
-    # ... (rest of the function implementation)
 
 def totalsaturdays(month: int, year: int) -> int:
-    """
+   
     Calculate the total number of Saturdays in a given month.
 
     Parameters:
@@ -39,10 +37,6 @@ def totalsaturdays(month: int, year: int) -> int:
 
     Returns:
         int: The total number of Saturdays in the month.
-    """
-    # ... (rest of the function implementation)
-
-
 
 ## Example
 Suppose you want to find the last Saturday and total Saturdays for september 2023:
